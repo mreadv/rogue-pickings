@@ -1,0 +1,171 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+#footer {
+  clear: both;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height: 400px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding: 45px 0px 35px 0px;
+
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 50px 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+  padding-left: 20px;
+}
+
+header img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/***** ABOUT SECTION WITHIN MAIN SECTION *****/
+
+#about {
+  height: 180px;
+}
+
+#about h2 {
+  font-family: montserrat;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #77a466;
+  padding-top: 60px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** FOR THE MENU, REVIEWS, AND CONTACT CONTAINED WITHIN MAIN *****/
+
+#menu-reviews-contact {
+  height: auto;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#menu-reviews-contact h3 {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+#menu-reviews-contact p {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+#menu a {
+  color: #77a466;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 36px;
+  list-style-position: outside;
+}
+
+#reviews div {
+  border-left: solid 1px #dedbdc;
+  border-right: solid 1px #dedbdc;
+  padding: 0px;
+}
+
+#reviews p {
+  font-family: 'montserrat';
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact p {
+  font-family: 'montserrat';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#reviews div, #contact div #menu div {
+  width: 395px;
+  float: left;
+
+}
+
+#footer {
+  text-align: center;
+  font-family: 'montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  clear: both;
+}
+
+#footer span {
+  font-family: 'dancing script';
+  font-size: 24px;
+  font-weight: 700;
+  color: #77a466;
+  text-transform: none;
+}
